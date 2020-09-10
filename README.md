@@ -1,5 +1,6 @@
 # cuda-examples
 A repository of examples coded in CUDA C++
+All examples were coded in Visual Studio 2019, CUDA 10.1 Environment 
 
 ## matmul-v1
 
