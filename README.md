@@ -2,6 +2,31 @@
 A repository of examples coded in CUDA C++
 All examples were compiled using NVCC version 10.1 on Linux v 5.4
 
+## Setup on Linux
+
+1) Install Nvidia drivers for the installed Nvidia GPU. On Ubuntu-based distributions this can be done from the software & updates app, <br>
+in the tab listed as "Additional Drivers" (make sure to install the recommended version of Nvidia drivers)
+
+2) After installing and restarting, verify that the drivers were installed by running 
+```
+nvidia-smi
+```
+in a terminal window. The output should list the name of the installed card, along with some usage statistics 
+
+3) Install the ```nvcc``` compiler using the package manager
+```
+sudo apt install nvidia-cuda-toolkit
+```
+
+4) Verify the installation using
+```
+nvcc -V
+```
+or 
+```
+nvcc --version
+```
+
 ## vecadd
 
 CUDA implementation of vector-vector addition, adding vectors of length N, using:
