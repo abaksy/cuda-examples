@@ -1,6 +1,6 @@
 # cuda-examples
 A repository of examples coded in CUDA C++
-All examples were compiled using NVCC version 10.1 on Linux v 5.41
+All examples were compiled using NVCC version 10.1 on Linux v 5.4
 
 ## vecadd
 
