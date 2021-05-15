@@ -42,7 +42,7 @@ CUDA implementation of matrix-matrix addition, adding matrices of size M x N, us
 
 ## matmul
 
-CUDA implementation of matrix-matrix multiplication, with matrices of size MxN and PxQ (where N = Q)
+CUDA implementation of matrix-matrix multiplication, with matrices of size MxN and PxQ (where N = P)
 Implementation using:
 * 2D grid of size MxQ blocks, with 1 thread in each block 
 * 2D grid of size MxQ blocks, with N threads in each block and shared memory (block level)
