@@ -4,8 +4,8 @@ All examples were compiled using NVCC version 10.1 on Linux v 5.4
 
 ## Setup on Linux
 
-1) Install Nvidia drivers for the installed Nvidia GPU. On Ubuntu-based distributions this can be done from the software & updates app, <br>
-in the tab listed as "Additional Drivers" (make sure to install the recommended version of Nvidia drivers)
+1) Install Nvidia drivers for the installed Nvidia GPU. On Ubuntu-based distributions this can be done from the Software & Updates application
+in the tab listed as "Additional Drivers" (make sure to install the **recommended** version of Nvidia drivers)
 
 2) After installing and restarting, verify that the drivers were installed by running 
 ```
